@@ -11,7 +11,7 @@ cargo run --release
 #### run
 
 ```shell
-./target/release/example-yolov8 onnx_model_path --ip 127.0.0.1 --port 8080
+./target/release/app onnx_model_path --ip 127.0.0.1 --port 8080
 ```
 
 #### request

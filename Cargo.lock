@@ -360,6 +360,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "86fdf8605db99b54d3cd748a44c6d04df638eb5dafb219b135d0149bd0db01f6"
 
 [[package]]
+name = "app"
+version = "0.0.0"
+dependencies = [
+ "actix-web",
+ "clap",
+ "env_logger",
+ "image",
+ "log",
+ "ndarray",
+ "ort",
+ "raqote",
+ "serde",
+ "serde_json",
+ "show-image",
+ "tracing",
+ "tracing-subscriber",
+ "ureq",
+]
+
+[[package]]
 name = "arbitrary"
 version = "1.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -932,26 +952,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ad9cdb4b747e485a12abb0e6566612956c7a1bafa3bdb8d682c5b6d403589e48"
 dependencies = [
  "num-traits",
-]
-
-[[package]]
-name = "example-yolov8"
-version = "0.0.0"
-dependencies = [
- "actix-web",
- "clap",
- "env_logger",
- "image",
- "log",
- "ndarray",
- "ort",
- "raqote",
- "serde",
- "serde_json",
- "show-image",
- "tracing",
- "tracing-subscriber",
- "ureq",
 ]
 
 [[package]]
