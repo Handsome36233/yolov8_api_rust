@@ -14,6 +14,10 @@ cargo run --release
 ./target/release/app onnx_model_path --ip 127.0.0.1 --port 8080
 ```
 
+example model
+
+https://parcel.pyke.io/v2/cdn/assetdelivery/ortrsv2/ex_models/yolov8m.onnx
+
 #### request
 
 curl
